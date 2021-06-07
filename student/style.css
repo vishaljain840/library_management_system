@@ -1,0 +1,169 @@
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+/* main code  index-------------------------- */
+
+.wrapper
+{
+    height: 660px;
+    width: 1350px;
+    /* background-color: red; */
+}
+
+header{
+    height: 130px;
+    width: 1364px;
+    background-color:black;
+}
+
+section{
+    height: 550px;
+    width: 1364px;
+    background-color:grey;
+}
+
+footer{
+    height: 80px;
+    width: 1364px;
+    background-color:black;
+  
+}
+
+ .logo{
+
+    padding-left: 20px;
+    float: left;
+}
+
+.logo img{
+    width: 130px;
+    height: 100px;
+    padding-left: 50px;
+    
+}
+
+li a{
+    color: white;
+    text-decoration: none;
+}
+
+/* nav{
+    float: right;
+    word-spacing: 20px;
+    line-height: 80px;
+    padding: 20px;
+}
+
+nav li{
+    display: inline-block;
+} */
+
+section .sec_img{
+    height: 550px;
+    margin-top: 0px;
+    background-image: url("images/librarybackground.jpg")
+}
+
+.box{
+    height: 300px;
+    width: 450px;
+    background-color: #3e3131;
+    margin: 70px auto;
+    opacity: 0.8;
+    color: white;
+
+}
+
+
+/* =-----------------------student login */
+
+
+section .log_img{
+    height: 550px;
+    margin-top: 0px;
+    background-image: url("images/Student.png");
+    /* background-repeat: no-repeat; */
+    
+
+}
+
+.box1{
+    height: 450px;
+    width: 450px;
+    background-color: black;
+    margin: 40px auto;
+    opacity: .7;
+    color: white;
+    padding: 20px;
+}
+
+input{
+    height: 25px;
+    width: 200px;
+
+}
+
+form .login{
+    margin: auto 50px;
+}
+
+/* registration ------------------------------------------------------- */
+section .reg_img{
+    height: 550px;
+    margin-top: 0px;
+    background-image: url("images/registration.png");
+    /* background-repeat: no-repeat; */
+    
+
+}
+
+.box2{
+    height: 550px;
+    width: 400px;
+    background-color: black;
+    margin: 0px auto;
+    opacity: .7;
+    color: white;
+    padding: 20px;
+}
